@@ -1,0 +1,10 @@
+/**
+ * JSON Minifier — tool-specific styles.
+ *
+ * Shared components (toolbar, textarea, metrics, error box) come from
+ * assets/css/components.css. Extension point only.
+ */
+
+.slt-json-minifier [data-slt-output] {
+	background: #f1f5f9;
+}

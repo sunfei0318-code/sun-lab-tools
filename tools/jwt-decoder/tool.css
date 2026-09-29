@@ -1,0 +1,24 @@
+/**
+ * JWT Decoder — tool-specific styles.
+ */
+
+.slt-jwt-decoder [data-slt-header],
+.slt-jwt-decoder [data-slt-payload] {
+	max-height: 300px;
+}
+
+.slt-jwt-decoder [data-slt-signature] {
+	font-size: 12.5px;
+	color: #64748b;
+}
+
+/* The claims table has short keys and long descriptions. */
+.slt-jwt-decoder [data-slt-claims] td:first-child {
+	width: 22%;
+	font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+	font-size: 12.5px;
+}
+
+.slt-jwt-decoder [data-slt-claims] td:last-child {
+	color: #475569;
+}

@@ -1,0 +1,26 @@
+/**
+ * JSON Viewer — tool-specific styles.
+ *
+ * The tree skeleton (indentation guides, key/string/number colours, summary
+ * markers) lives in assets/css/components.css because other tools may use it.
+ * Here we only refine the viewer's own chrome.
+ */
+
+.slt-json-viewer .slt-tool-ui {
+	/* extension point */
+}
+
+/* Keep the tree visually connected to the input box above it. */
+.slt-json-viewer [data-slt-tree] {
+	margin-top: 4px;
+}
+
+/* Branch preview labels sit inline after the disclosure marker. */
+.slt-json-viewer [data-slt-tree] summary .slt-null {
+	color: #94a3b8;
+}
+
+/* Empty collections read better dimmed. */
+.slt-json-viewer [data-slt-tree] details > ul:empty {
+	display: none;
+}

@@ -1,0 +1,14 @@
+/**
+ * Base64 Encoder — tool-specific styles.
+ *
+ * Shared components come from assets/css/components.css. The readonly output
+ * box is tinted so it is obvious it is a result rather than an input.
+ */
+
+.slt-base64-encoder [data-slt-output] {
+	background: #f1f5f9;
+}
+
+.slt-base64-encoder .slt-row .slt-field {
+	margin-bottom: 0;
+}

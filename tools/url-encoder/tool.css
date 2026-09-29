@@ -1,0 +1,13 @@
+/**
+ * URL Encoder — tool-specific styles.
+ */
+
+.slt-url-encoder [data-slt-output] {
+	background: #f1f5f9;
+}
+
+.slt-url-encoder [data-slt-hint] {
+	margin: 0 0 14px;
+	color: #64748b;
+	line-height: 1.6;
+}

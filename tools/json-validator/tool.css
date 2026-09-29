@@ -1,0 +1,10 @@
+/**
+ * JSON Validator — tool-specific styles.
+ *
+ * Everything shared lives in assets/css/components.css; the structure report
+ * reuses .slt-table from there. Kept as an extension point.
+ */
+
+.slt-json-validator .slt-tool-ui {
+	/* nothing tool-specific needed yet */
+}

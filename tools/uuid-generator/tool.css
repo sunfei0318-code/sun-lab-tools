@@ -1,0 +1,37 @@
+/**
+ * UUID Generator — tool-specific styles.
+ */
+
+.slt-uuid-generator .slt-uuid-list {
+	min-height: 60px;
+	max-height: 420px;
+	padding: 10px 14px;
+}
+
+.slt-uuid-generator .slt-uuid-row {
+	line-height: 1.9;
+}
+
+.slt-uuid-generator .slt-uuid-value {
+	cursor: pointer;
+	padding: 2px 6px;
+	border-radius: 6px;
+	border: 1px solid transparent;
+	transition: background .12s, border-color .12s;
+	word-break: break-all;
+}
+
+.slt-uuid-generator .slt-uuid-value:hover {
+	background: #e0f2fe;
+	border-color: #bae6fd;
+}
+
+.slt-uuid-generator .slt-uuid-value.is-copied {
+	background: #dcfce7;
+	border-color: #bbf7d0;
+}
+
+.slt-uuid-generator [data-slt-hint] {
+	margin: 0 0 14px;
+	color: #64748b;
+}

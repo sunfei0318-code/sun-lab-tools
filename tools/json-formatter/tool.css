@@ -1,0 +1,10 @@
+/**
+ * JSON Formatter — tool-specific styles.
+ *
+ * Everything shared (buttons, textareas, pills, errors, panels) lives in
+ * assets/css/components.css. Only rules unique to this tool belong here.
+ */
+
+.slt-json-formatter .slt-tool-ui {
+	/* nothing tool-specific needed yet — kept as an extension point */
+}

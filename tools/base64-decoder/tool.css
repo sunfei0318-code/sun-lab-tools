@@ -1,0 +1,12 @@
+/**
+ * Base64 Decoder — tool-specific styles.
+ */
+
+.slt-base64-decoder [data-slt-output] {
+	background: #f1f5f9;
+}
+
+/* Hex dumps read better in a slightly wider measure than prose output. */
+.slt-base64-decoder [data-slt-output] {
+	letter-spacing: .02em;
+}

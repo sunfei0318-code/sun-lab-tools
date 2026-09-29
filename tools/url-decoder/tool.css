@@ -1,0 +1,13 @@
+/**
+ * URL Decoder — tool-specific styles.
+ */
+
+.slt-url-decoder [data-slt-output] {
+	background: #f1f5f9;
+}
+
+.slt-url-decoder [data-slt-parts] td:last-child {
+	font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+	font-size: 12.5px;
+	word-break: break-all;
+}
